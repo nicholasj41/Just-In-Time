@@ -1,0 +1,51 @@
+SWEN222 Group Project - Code Review Phase
+
+Riley Blair - 300371586
+Celine Young - 300378246
+Leyton Blackler - 300368625
+Finn Welsford-Ackroyd - 300379304
+Nicholas Jones - 300384025
+
+Level Library:
+
+	We made significant improvements to the level library by adding batteries and bonuses 
+	and implemented complex random generation so that no two levels would be identical. We 
+	reviewed what variables were to be held in the level library, and what variables would 
+	be more appropriate elsewhere. During this time, we also added extra test cases to cover
+	the new code that was being written.
+	
+Physics Library:
+
+	The major update during the code review phase to the physics library was a change to how 
+	collisions were implemented. We changed from having a bounding box, to utilising Point2D 
+	in order to have a common interface between the level, player and physics that could be 
+	visualised in the GUI.
+	
+GUI Library:
+	
+	Prior to the code review phase we only had a game canvas with a simple menu and options.
+	After reviewing the code and making the necessary changes to it in order for it to 
+	correctly interface with the other libraries through a common API. During this phase we 
+	developed the objects within the canvas more and added complex animations and the sliding 
+	window. The major change here was from the window not sliding to sliding and then sliding 
+	smoothly with key presses. 
+	
+Save/Load Library:
+
+	The save/load library was changed almost entirely during the code review phase as we 
+	discovered that using a parser and Java reflection was not going to work as we wanted
+	it to. This was due to the fact that the scanner would return a string type and 
+	reflection had to be used to assign the value to its field. We ran into a number of 
+	incompatible type errors. During the code review phase, we removed the parser and 
+	reflective methods and instead utilised an 'savable' API interface that used 
+	serialisation.
+	
+Entity Library:
+	
+	At the same time as the collisions were changed in the physics library, we updated the entity 
+	library to adhere to the new specifications and API for collisions and collision detection. 
+	This involved removing the bounding box concept and replacing it with Point2D. While doing this,
+	we also looked into how we were going to represent a player within a level. We decided that 
+	rather than a player being within the 2D array grid that represents a level, we would have it 
+	independent and track its position relative to the start of the level. The appropriated methods 
+	were added to achieve this.

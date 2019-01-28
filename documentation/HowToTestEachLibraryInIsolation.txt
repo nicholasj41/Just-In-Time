@@ -1,0 +1,22 @@
+SWEN222 Group Project - Second Library Design & Tentative Integration Phase
+
+Riley Blair - 300371586
+Celine Young - 300378246
+Leyton Blackler - 300368625
+Finn Welsford-Ackroyd - 300379304
+Nicholas Jones - 300384025
+
+
+	We discussed some of the specific of our project with Marco and understand that much of the 
+	code needs to be able to be testing in isolation but interfaces and APIs are appropriate in 
+	order to connect these libraries. We aim to achieve maximum code coverage and correct testing 
+	of all our code.
+	
+	We managed to test each library in isolation are get extremely high code coverage by all 
+	agreeing on the standard Java libraries that our classes would use as an API to connect via.
+	For example, we agreed to use a combination of the Point2D library as well as a bounding box
+	as a means of processing interactions. We could then test any Point2D object through our 
+	physics classes in order to test collisions and interactions between what would become blocks 
+	in the future. We used a 'savable' interface to process saving and loading which mean that we 
+	could conduct our tests with any object as long as it implements the savable interface. By 
+	doing so, we were able to test the class in isolation.

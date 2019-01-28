@@ -1,0 +1,17 @@
+SWEN222 Group Project - Global Design Phase
+
+Riley Blair - 300371586
+Celine Young - 300378246
+Leyton Blackler - 300368625
+Finn Welsford-Ackroyd - 300379304
+Nicholas Jones - 300384025
+
+GUI Library:
+
+    Controls movement of the window in the horizontal direction. This will include the concept 
+    of momentum and acceleration to add realism to the game. The background will move at a 
+    different rate to the  foreground to provide a level of depth to the game.
+
+    Primary Author: Leyton Blackler
+    Code Reviewer: Riley Blair
+    External Tester: Celine Young

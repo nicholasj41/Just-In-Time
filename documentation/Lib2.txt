@@ -1,0 +1,17 @@
+SWEN222 Group Project - Global Design Phase
+
+Riley Blair - 300371586
+Celine Young - 300378246
+Leyton Blackler - 300368625
+Finn Welsford-Ackroyd - 300379304
+Nicholas Jones - 300384025
+
+Save/Load Library:
+
+    Reads and writes the current state of a level to a text file so that the game can be saved 
+    and loaded. This will most likely use an object output and object input stream in order to 
+    save and load these objects into the game.
+
+    Primary Author: Celine Young
+    Code Reviewer: Finn Welsford-Ackroyd
+    External Tester: Riley Blair

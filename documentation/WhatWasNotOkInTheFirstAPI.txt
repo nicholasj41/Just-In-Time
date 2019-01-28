@@ -1,0 +1,32 @@
+SWEN222 Group Project - Library Design & Tentative Integration Phase
+
+Riley Blair - 300371586
+Celine Young - 300378246
+Leyton Blackler - 300368625
+Finn Welsford-Ackroyd - 300379304
+Nicholas Jones - 300384025
+
+We experienced a few difficulties when putting the libraries together, mainly in regards to the 
+isolated testing. Once example is that we initially decided on creating a save/load library, but 
+this proved to be difficult to implement as a stand-alone library that could be tested in isolation 
+due to the fact that we were unable to test how it would save a level and the player's position 
+within that level without being about to make reference to the level. 
+
+Much of the development and testing of the other libraries went mostly to plan and we were able to 
+test these in isolation. Interactions/collisions between players and objects were able to be 
+developed and tested alone without many issue because they connected via a similar interface and 
+therefore as long as we maintain the same interface, we can be confident that the interactions will 
+work correctly. 
+
+Level generation changed slightly from being predefined levels to a semi-random level generation 
+which added more depth to the game, and with the way we developed it, we were able to adjust the 
+size and length as well as the difficulty of the game by increasing the randomness and frequency 
+of randomness in the level generation.
+
+Ensuring the physics of the change in gravity worked as expected was also easier than expected as 
+we were able to simply move a generic object up and down in an array of null spaces, and as soon as 
+it encountered a not null space, we could define this as being a solid block and stop the movement.
+
+Creating the GUI including a menu and scrolling interface was fairly easy as it mainly required 
+knowledge that had been learnt throughout the first half of the trimester in SWEN222 through the 
+first two assignments.

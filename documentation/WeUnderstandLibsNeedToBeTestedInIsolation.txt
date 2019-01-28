@@ -1,0 +1,12 @@
+SWEN222 Group Project - Global Design Phase
+
+Riley Blair - 300371586
+Celine Young - 300378246
+Leyton Blackler - 300368625
+Finn Welsford-Ackroyd - 300379304
+Nicholas Jones - 300384025
+
+	We discussed some of the specific of our project with Marco and understand that much of the 
+	code needs to be able to be testing in isolation but interfaces and APIs are appropriate in 
+	order to connect these libraries. We aim to achieve maximum code coverage and correct testing 
+	of all our code.

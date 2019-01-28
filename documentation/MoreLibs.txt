@@ -1,0 +1,43 @@
+SWEN222 Group Project - Global Design Phase
+
+Riley Blair - 300371586
+Celine Young - 300378246
+Leyton Blackler - 300368625
+Finn Welsford-Ackroyd - 300379304
+Nicholas Jones - 300384025
+
+We plan to use the following libraries as part of our project:
+
+Java Utilities:
+	Standard Java library to perform more advanced functions. Will be used primarily for collections 
+	and object management.
+
+JavaX Swing:
+	Will provide the window management for the game and control the game menu. 
+	
+JavaX Sound:
+	Game sounds will be created using this library.
+
+Java AWT:
+	Much of the graphics will be controlled using the AWT library.
+	
+Java IO: 
+	Input and output 
+	
+Java Net URL:
+	Will allow us to easily access the resources folder from our game so that we can load images, 
+	sounds and other resources.
+	
+Graphics:
+	Will provide the basis of the graphical representation of the game.
+	
+Graphics2D:
+	Extends the Graphics library
+	
+JUnit 4:
+	Will allow us to test the program and ensure that all features and functions work as expected.
+
+As we develop the game further, we will most likely add more libraries in order to accommodate for 
+the functionality we desire. We will develop upon our five basic libraries as the project progresses, 
+but are currently unsure as to the other libraries we may need and therefore will add these to the 
+project as necessary.

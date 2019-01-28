@@ -1,0 +1,18 @@
+SWEN222 Group Project - Global Design Phase
+
+Riley Blair - 300371586
+Celine Young - 300378246
+Leyton Blackler - 300368625
+Finn Welsford-Ackroyd - 300379304
+Nicholas Jones - 300384025
+
+Entities Library:
+
+	Will control both the player and the NPCs within the game and the logic that controls their 
+	movement within the level. This will also handle collisions between players and NPCs. The 
+	player will be relatively specific, but the NPCs will be generic so that any sort of NPC 
+	can be created within the game and will follow the same logic and movements.
+	
+    Primary Author: Nicholas Jones
+    Code Reviewer: Celine Young
+    External Tester: Leyton Blackler

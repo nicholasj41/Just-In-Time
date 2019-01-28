@@ -1,0 +1,24 @@
+SWEN222 Group Project - Second Library Design & Tentative Integration Phase
+
+Riley Blair - 300371586
+Celine Young - 300378246
+Leyton Blackler - 300368625
+Finn Welsford-Ackroyd - 300379304
+Nicholas Jones - 300384025
+
+	At this point we have most of the libraries communicating with each other through 
+	APIs, connecting interfaces and the model-view-controller (MVC). The GUI and menu 
+	works as expected and has been tested thoroughly. The level generation and the other 
+	parts of the level library have been tested to achieve 100% code coverage. Most of 
+	the artwork has been completed as well, and at the time of writing this, our main 
+	focus is on connecting the player, level and physics libraries together so that the 
+	game is actually playable. At the same time as the API between these libraries is 
+	being built, we are also focusing on getting the side scrolling of the GUI window 
+	working correctly. After this we plan to add in bonuses and NPCs to the game and 
+	connect up the save/load library through an API with the savable interface within 
+	the library.
+	
+	We are also part way through the development of our strict MVC design while connecting 
+	the libraries together. We are still writing new test cases in JUnit in order to make 
+	sure that not only the libraries work correctly in isolation (unit testing) but also when 
+	they are connected together (integration testing).
